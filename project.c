@@ -17,7 +17,7 @@ int main()
         
      
      
-    printf("\nPlease choose your food sir:\n1.Burger-260 Taka\n2.Nooddles-350 Taka\n3.Biriyani-570 Taka\n4.Fried Rice- 450 Taka\n ");
+    printf("\n\t\t------------Please choose your food sir----------\n\n\t\t--------------1.Burger-260 Taka-----------------\n\t\t--------------2.Nooddles-350 Taka---------------\n\t\t--------------3.Biriyani-570 Taka---------------\n\t\t--------------4.Fried Rice- 450 Taka------------\n ");
 
     printf("\nEnter your choice: ");
     scanf(" %c",&ch);
