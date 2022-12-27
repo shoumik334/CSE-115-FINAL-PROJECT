@@ -1,17 +1,21 @@
-//My name is Shoumik
-//ID 2232042642
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
-int main()
+int menu(int menu)
 { 
+    
+    printf("\t(  )   (   )  )\n\t ) (   )  (  (\n\t ( )  (    ) )\n\t _____________\n\t<_____________> _\n__\t|             |/ _ \\ \n\t|               | | |\n\t|               |_| |\n\t___|             |\\___/\n\t/    \\___________/    \\\n\t\\_____________________/");
+    printf("\n\n");
+    printf(" __      __       .__                                     __\n/  \\    /  \\ ____ |  |   ____  ____   _____   ____      _/  |_ ____        _____   ____   ____  __ __\n\\   \\/\\/   _/ __ \\|  | _/ ___\\/  _ \\ /     \\_/ __ \\     \\   __/  _ \\      /     \\_/ __ \\ /    \\|  |  \\\n \\        /\\  ___/|  |_\\  \\__(  <_> |  Y Y  \\  ___/      |  |(  <_> )    |  Y Y  \\  ___/|   |  |  |  /\n  \\__/\\  /  \\___  |____/\\___  \\____/|__|_|  /\\___  >     |__| \\____/     |__|_|  /\\___  |___|  |____/\n       \\/       \\/          \\/            \\/     \\/                            \\/     \\/     \\/\n");      
+   
+
     
     int quantity,total=0,count,bill=0;
 
     char ch,option;
-    printf("Welcome to Fast KItchen");
+    //printf("Welcome to Fast KItchen");
     sleep(2);
+    system("clear");
      while (option!='N')
      {
         
@@ -100,9 +104,8 @@ int main()
 
  printf("\nTotal Bill is %d ",bill);
  
- return 0; 
+ return menu; 
     
     
 
 }
-
