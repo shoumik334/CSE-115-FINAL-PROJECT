@@ -11,7 +11,7 @@ int main(void)
 {
     system("clear");
     splash(splash);
-    sleep(5);
+    sleep(1);
     system("clear");
     
     
@@ -20,10 +20,10 @@ int main(void)
     do{
     
   
-    printf("\t\t========================\tIF YOU ARE NEW CUSTOMER\t\t========================\n\t\t========================\tPLEASR SING UP\t\t=================================\n\t\t========================\tOTHERWISE LOGIN\t\t================================\n\n");
-    printf("\t\t==========================\t1.SIGN UP\t====================================\n\t\t==========================\t2.LOGIN\t\t s======================================");
+    printf("\t\t                                \tIF YOU ARE NEW CUSTOMER\t\t                        \n\t\t========================        \tPLEASR SIGN UP\t\t        =========================\n\t\t                                \tOTHERWISE LOGIN\t\t                                \n\n");
+    printf("\t\t========================              \t1.SIGN UP\t                =========================\n\t\t========================          \t2.LOGIN\t\t                =========================");
   
-    printf("\n\n\t\t=========================\tCHOOSE AN OPTION\t==============================\n");
+    printf("\n\n\t\t=========================        \tCHOOSE AN OPTION\t        =========================\n");
     scanf("%d", &n);
         
         if (n ==1)
@@ -31,6 +31,7 @@ int main(void)
             registration();
             sleep(2);
             system("clear");
+            log_in();
         }
         
         else if (n != 1 && n != 2)

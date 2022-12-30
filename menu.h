@@ -34,12 +34,13 @@ int menu(int menu)
             total=quantity*260;
             bill=bill+total;
             printf("\nBurger - %dx260=%d Taka",quantity,total);
-            printf("\nDo you you want to add more ?\n(if yes than press Y if no than press N)\nEnter Your choice: ");
+            printf("\n\nDo you you want to add more ?\n(if yes than press Y if no than press N)\nEnter Your choice: ");
             scanf(" %c",&option);
 
             switch (option)
             {
             case'Y':
+            system("clear");
             printf("\n Showing Menu :");
             break;
             }
@@ -52,13 +53,14 @@ int menu(int menu)
             total=quantity*350;
             bill=bill+total;
             printf("\nNooddles - %dx350=%d Taka",quantity,total);
-            printf("\nDo you you want to add more ?\n(if yes than press Y if no than press N)\nEnter Your choice: ");
+            printf("\n\nDo you you want to add more ?\n(if yes than press Y if no than press N)\nEnter Your choice: ");
             scanf(" %c",&option);
 
             switch (option)
             {
             case'Y':
-            printf("\n Ok select more :");
+            system("clear");
+            printf("\n Showing Menu  :");
             break;
             
             }
@@ -69,13 +71,14 @@ int menu(int menu)
             total=quantity*570;
             bill=bill+total;
             printf("\nBiriyani - %dx570=%d Taka",quantity,total);
-            printf("\nDo you you want to add more ?\n(if yes than press Y if no than press N)\nEnter Your choice: ");
+            printf("\n\nDo you you want to add more ?\n(if yes than press Y if no than press N)\nEnter Your choice: ");
             scanf(" %c",&option);
 
             switch (option)
             {
             case'Y':
-            printf("\n Ok select more :");
+            system("clear");
+            printf("\n Showing Menu :");
             break;
           
             }
@@ -86,13 +89,14 @@ int menu(int menu)
             total=quantity*450;
             bill=bill+total;
             printf("\nFried Rice - %dx450=%d Taka",quantity,total);
-            printf("\nDo you you want to add more ?\n(if yes than press Y if no than press N)\nEnter Your choice: ");
+            printf("\n\nDo you you want to add more ?\n(if yes than press Y if no than press N)\nEnter Your choice: ");
             scanf(" %c",&option);
 
             switch (option)
             {
             case'Y':
-            printf("\n Ok select more :");
+            system("clear");
+            printf("\n  Showing Menu :");
             break;
             
             }
@@ -101,8 +105,8 @@ int menu(int menu)
     }
     
  }
-
- printf("\nTotal Bill is %d ",bill);
+    system("clear");
+ printf("\n Your Total Bill is %d ",bill);
  
  return menu; 
     

@@ -40,9 +40,12 @@ void registration(void)
     }
     printf("\n");
     fclose(fp);
+
+    
+    
 }
 
-int log_in(void)
+int log_in()
 {
     int result = 0;
     char uname[50];
@@ -57,7 +60,9 @@ int log_in(void)
     }
     
     struct person k;
-    printf("********WELCOME********\n\n");
+    printf("********WELCOME TO KASUNDI********\n");
+    printf("(Plese Enter your username and password for login)\n\n");
+
     printf("PLEASE ENTER USERNAME:\n");
     scanf("%s", uname);
     printf("PLEASE ENTER PASSWORD:\n");
