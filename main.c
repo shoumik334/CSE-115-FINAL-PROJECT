@@ -11,7 +11,7 @@ int main(void)
 {
     system("clear");
     splash(splash);
-    sleep(1);
+    sleep(4);
     system("clear");
     
     
