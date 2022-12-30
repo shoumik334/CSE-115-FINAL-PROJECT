@@ -20,7 +20,7 @@ int main(void)
     do{
     
   
-    printf("\t\t                                \tIF YOU ARE NEW CUSTOMER\t\t                        \n\t\t========================        \tPLEASR SIGN UP\t\t        =========================\n\t\t                                \tOTHERWISE LOGIN\t\t                                \n\n");
+    printf("\t\t                                \tIF YOU ARE NEW CUSTOMER\t\t                        \n\t\t========================        \tPLEASE SIGN UP\t\t        =========================\n\t\t                                \tOTHERWISE LOGIN\t\t                                \n\n");
     printf("\t\t========================              \t1.SIGN UP\t                =========================\n\t\t========================          \t2.LOGIN\t\t                =========================");
   
     printf("\n\n\t\t=========================        \tCHOOSE AN OPTION\t        =========================\n");
