@@ -9,7 +9,7 @@
 
 int main(void)
 {
-    //system("clear");
+    system("clear");
     splash(splash);
     sleep(4);
     system("clear");
