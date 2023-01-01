@@ -12,11 +12,11 @@ int menu(int menu)
     
     int quantity,total=0,count,bill=0;
 
-    char ch,option;
+    char ch,option,option2;
     //printf("Welcome to Fast KItchen");
     sleep(2);
     system("clear");
-     while (option!='N')
+     while (option2!='2')
      {
         
      
@@ -34,15 +34,20 @@ int menu(int menu)
             total=quantity*260;
             bill=bill+total;
             printf("\nBurger - %dx260=%d Taka",quantity,total);
-            printf("\n\nDo you you want to add more ?\n(if yes than press Y if no than press N)\nEnter Your choice: ");
-            scanf(" %c",&option);
-
-            switch (option)
+            printf("\nTotal Bill : %d",bill);
+            printf("\n\nEnter your choice: ");
+            printf("\n1.Add more\n2.Go to payment method\n ");
+            scanf(" %c",&option2);
+            switch (option2)
             {
-            case'Y':
-            system("clear");
-            printf("\n Showing Menu :");
-            break;
+            case '1':system("clear");
+                     printf("\n Showing Menu :");
+               break;
+            case '2': system("clear");
+               printf("\n Your Total Bill is %d ",bill);
+            
+            default:
+               break;
             }
         break;
 
@@ -53,8 +58,22 @@ int menu(int menu)
             total=quantity*350;
             bill=bill+total;
             printf("\nNooddles - %dx350=%d Taka",quantity,total);
-            printf("\n\nDo you you want to add more ?\n(if yes than press Y if no than press N)\nEnter Your choice: ");
-            scanf(" %c",&option);
+            printf("\nTotal Bill : %d",bill);
+            printf("\n\nEnter your choice: ");
+            printf("\n1.Add more\n2.Go to payment method\n ");
+            scanf(" %c",&option2);
+            switch (option2)
+            {
+            case '1':system("clear");
+                     printf("\n Showing Menu :");
+               break;
+            case '2': system("clear");
+               printf("\n Your Total Bill is %d ",bill);
+            
+            default:
+               break;
+            }
+            
 
             switch (option)
             {
@@ -71,17 +90,22 @@ int menu(int menu)
             total=quantity*570;
             bill=bill+total;
             printf("\nBiriyani - %dx570=%d Taka",quantity,total);
-            printf("\n\nDo you you want to add more ?\n(if yes than press Y if no than press N)\nEnter Your choice: ");
-            scanf(" %c",&option);
-
-            switch (option)
+            printf("\nTotal Bill : %d",bill);
+            printf("\n\nEnter your choice: ");
+            printf("\n1.Add more\n2.Go to payment method\n ");
+            scanf(" %c",&option2);
+            switch (option2)
             {
-            case'Y':
-            system("clear");
-            printf("\n Showing Menu :");
-            break;
-          
+            case '1':system("clear");
+                     printf("\n Showing Menu :");
+               break;
+            case '2': system("clear");
+               printf("\n Your Total Bill is %d ",bill);
+            
+            default:
+               break;
             }
+          
         break;
      case'4':
             printf("Fried Rice-450 Taka \n Plese enter Quantity: ");
@@ -89,24 +113,27 @@ int menu(int menu)
             total=quantity*450;
             bill=bill+total;
             printf("\nFried Rice - %dx450=%d Taka",quantity,total);
-            printf("\n\nDo you you want to add more ?\n(if yes than press Y if no than press N)\nEnter Your choice: ");
-            scanf(" %c",&option);
-
-            switch (option)
+            printf("\nTotal Bill : %d",bill);
+            printf("\n\nEnter your choice: ");
+            printf("\n1.Add more\n2.Go to payment method\n ");
+            scanf(" %c",&option2);
+            switch (option2)
             {
-            case'Y':
-            system("clear");
-            printf("\n  Showing Menu :");
-            break;
+            case '1':system("clear");
+                     printf("\n Showing Menu :");
+               break;
+            case '2': system("clear");
+               printf("\n Your Total Bill is %d ",bill);
             
+            default:
+               break;
             }
         break;
     
     }
     
  }
-    system("clear");
- printf("\n Your Total Bill is %d ",bill);
+   
  //pay bill
 
  char pay;
