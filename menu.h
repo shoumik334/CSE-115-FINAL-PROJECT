@@ -13,7 +13,7 @@ int menu(int menu)
     int quantity,total=0,count,bill=0;
 
     char ch,option,option2;
-    //printf("Welcome to Fast KItchen");
+    
     sleep(2);
     system("clear");
      while (option2!='2')
