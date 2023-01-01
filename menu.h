@@ -107,6 +107,50 @@ int menu(int menu)
  }
     system("clear");
  printf("\n Your Total Bill is %d ",bill);
+ //pay bill
+
+ char pay;
+ int num,pin;
+
+ printf("\n\nEnter your payment method: ");
+
+ printf("\n1.Bkash\n2.Rocket\n3.Credit Card\n4.Cash on delivery");
+ scanf(" %c",&pay);
+ system("clear");
+
+ switch (pay)
+ {
+ case '1':
+        printf("\nEnter your Bkash number: ");
+        scanf("%d",&num);
+        printf("\nEnter your pin: ");
+        scanf("%d",&pin);
+        printf("Thank you payment succesful\nYour order is on the way");
+        break;
+case '2':
+        printf("\nEnter your Rocket number: ");
+        scanf("%d",&num);
+        printf("\nEnter your pin: ");
+        scanf("%d",&pin);
+        printf("Thank you payment succesful\nYour order is on the way");
+        break;
+ case '3':
+        printf("\nEnter your Credit card number: ");
+        scanf("%d",&num);
+        printf("\nEnter your pin: ");
+        scanf("%d",&pin);
+        printf("Thank you payment succesful\nYour order is on the way");
+        break;
+case '4':
+        
+        printf("Thank you Your order is on the way");
+        break;
+ default:
+    break;
+ }
+
+
+
  
  return menu; 
     

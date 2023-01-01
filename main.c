@@ -9,7 +9,7 @@
 
 int main(void)
 {
-    system("clear");
+    //system("clear");
     splash(splash);
     sleep(4);
     system("clear");
@@ -31,7 +31,7 @@ int main(void)
             registration();
             sleep(2);
             system("clear");
-            log_in();
+            
         }
         
         else if (n != 1 && n != 2)
