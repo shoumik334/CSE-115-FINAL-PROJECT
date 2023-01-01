@@ -114,7 +114,7 @@ int menu(int menu)
 
  printf("\n\nEnter your payment method: ");
 
- printf("\n1.Bkash\n2.Rocket\n3.Credit Card\n4.Cash on delivery");
+ printf("\n1.Bkash\n2.Rocket\n3.Credit Card\n4.Cash on delivery \n-");
  scanf(" %c",&pay);
  system("clear");
 
@@ -125,6 +125,7 @@ int menu(int menu)
         scanf("%d",&num);
         printf("\nEnter your pin: ");
         scanf("%d",&pin);
+        system("clear");
         printf("Thank you payment succesful\nYour order is on the way");
         break;
 case '2':
@@ -132,6 +133,7 @@ case '2':
         scanf("%d",&num);
         printf("\nEnter your pin: ");
         scanf("%d",&pin);
+        system("clear");
         printf("Thank you payment succesful\nYour order is on the way");
         break;
  case '3':
@@ -139,11 +141,12 @@ case '2':
         scanf("%d",&num);
         printf("\nEnter your pin: ");
         scanf("%d",&pin);
-        printf("Thank you payment succesful\nYour order is on the way");
+        system("clear");
+        printf("\nThank you payment succesful\nYour order is on the way");
         break;
 case '4':
         
-        printf("Thank you Your order is on the way");
+        printf("\n\nThank you Your order is on the way\nYou have to pay %d Taka",total);
         break;
  default:
     break;
